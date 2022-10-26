@@ -1,8 +1,9 @@
 :root {
   --first-x-position: 720px;
-  --second-x-position: 0px;
+  --second-x-position: 75px;
+  --third-x-position: 600px;
+  --fourth-x-position: 0px;
 }
-
 
 .parent {
   background-color: rgb(50, 50, 92);
@@ -22,29 +23,8 @@
 }
 
 .child {
-  /* animation: left-to-right 1s ease-in forwards 3 alternate; */
   animation: zigzag 5s linear infinite;
 }
-
-/* moving the small square around the big square: top-left, bottom-left, bottom-right, top-right */
-/* @keyframes left-to-right {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateY(100%);
-  }
-  50% {
-    transform: translateX(100%) translateY(100%);
-  }
-  75% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-} */
-
 
 @keyframes zigzag {
   0% {
@@ -57,9 +37,9 @@
     transform: translate(var(--second-x-position), -400px);
   }
   75% {
-    transform: translate(600px, -600px);
+    transform: translate(var(--third-x-position), -600px);
   }
   100% {
-    transform: translate(0, -720px);
+    transform: translate(var(--fourth-x-position), -720px);
   }
 }
