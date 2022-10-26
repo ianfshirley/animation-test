@@ -1,22 +1,20 @@
-# Code-201-Template
-Template for setting up projects
 
 
+# Animation Test
 
-## Follow this template for the README files:
+## Figuring out how to animate the birds for target-practice game for Code 201 final project
 
-# LAB - Number
+Needed to find a way to have the bird zigzag across the screen, ideally with randomized turning points.
 
-## Project Name
-
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
-
-### Author: Student/Group Name
+### Author: Ian Shirley (w/ some help from my wife, Leyla Li)
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
+* [Learn CSS Animation in 15 Minutes](https://www.youtube.com/watch?v=YszONjKpgg4)
+* [CSS Diagonal Movement Animation](https://codepen.io/yochans/pen/MWEOwNJ)
+* [Random Numbers in CSS](https://css-tricks.com/random-numbers-css/)
+* [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+* [Element: animationend event](https://developer.mozilla.org/en-US/docs/Web/API/Element/animationend_event)
+* [Updating a CSS Variable with JavaScript](https://css-tricks.com/updating-a-css-variable-with-javascript/)
+* [Element: animationiteration event](https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event)
 
-### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+
